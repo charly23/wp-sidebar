@@ -1,6 +1,0 @@
-body .redactor_toolbar li a.re-advanced {
-	background-image: url(advanced.png);
-}
-body .redactor_toolbar li a.re-advanced:hover {
-	background-image: url(advanced-hover.png);
-}
