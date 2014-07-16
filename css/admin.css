@@ -1,0 +1,329 @@
+
+div#sform{
+    margin-top: 25px;
+}
+
+div#sform #formatdiv{
+    width: 45%; 
+}
+
+div#sform h3.hndle{
+    background: url("../images/1403855430_icon-arrow-down-b.png") no-repeat scroll 750px 9px rgba(0, 0, 0, 0);
+    padding: 5px 17px 5px 10px;
+}
+
+div#sform div#formatdiv h3.sform-acitve{
+    background: url("../images/1403855435_icon-arrow-up-b.png") no-repeat scroll 750px 9px rgba(0, 0, 0, 0);
+    padding: 5px 17px 5px 10px;
+}
+
+div#sform h3.hndle span{
+     font-size: 15px;
+}
+
+input#inputDate{
+    border: 1px solid #dedede;
+    padding: 5px;
+    width: 100%;
+}
+
+input#sname, input#client_name{
+    padding: 5px;
+    width: 100%;
+}
+
+input#semail, input#scontact{
+    padding: 5px;
+    width: 60%;
+}
+
+textarea#sdetails{
+    height: 250px;
+    width: 100%;
+}
+
+span#ajax-load{
+    background: url("../images/ajax-loader.gif") no-repeat scroll 10px 6px rgba(0, 0, 0, 0);
+    height: 27px;
+    width: 40px;
+    display:none;
+}
+
+span#quick-ajax-load{
+    background: url("../images/ajax-loader.gif") no-repeat scroll 10px 5px rgba(0, 0, 0, 0);
+    display: none;
+    height: 20px;
+    width: 40px;
+}
+
+span#item-ajax-load{
+    background: url("../images/ajax-loader.gif") no-repeat scroll 10px 5px rgba(0, 0, 0, 0);
+    display: none;
+    height: 20px;
+    width: 40px;
+}
+
+input#sform-btn{
+    width:95px;
+}
+
+div.err-log{
+    font-family: "Helvetica Neue",Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    color: #777;
+    font-size: 12px;
+    background: none repeat scroll 0 0 #ffd2d2;;
+    padding: 10px;
+    width: 44%;
+}
+
+#sform .column-2 {
+    float: none;
+}
+
+span.count_items{
+    background: none repeat scroll 0 0 #0074a2;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    padding: 0 5px 1px;
+    cursor:pointer;
+}
+
+div#sform-action{
+    float: left;
+    margin-bottom: 15px;
+    width: 10%;
+}
+
+span.sort-action{
+     background: url("../images/1404115927_sort.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+     display: inline-block;
+     height: 30px;
+     width: 15px;
+     cursor:pointer;
+}
+
+div#sform table#sortval{
+      width: 80%;
+}
+
+div.sform-action-bottom{
+      margin-top: 15px;
+}
+
+div#sform .widefat thead th {
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+}
+
+input#add_option_id{
+    margin-left: 10px;
+    margin-top: -7px;
+}
+
+div#sform-search{
+    float: right;
+    height: 33px;
+    margin-right: 20%;
+    width: 20%;
+}
+
+a.list-name{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+div.item-filter-form{
+    float: left;
+    width: 195px;
+    width: 195px;
+}
+
+div.date-filter-form{
+    float: left;
+    width: 155px;
+}
+
+div.apply-filter-form{
+    float: left;
+    width: 100px;
+}
+
+div.auto-item-view{
+    background: none repeat scroll 0 0 powderblue;
+    border-radius: 5px;
+    color: #000;
+    display: none;
+    margin-left: 25px;
+    margin-top: -22px;
+    padding: 5px;
+    position: absolute;
+    width: 205px;
+}
+
+input#apply_id{
+    margin-right: 5px;
+}
+
+input#color-circle, input#radius-circle, input#bgcolor-circle, input#width-circle,
+input#height-circle, input#text-circle, input#size-circle, input#weight-circle{
+    margin-top: 5px;
+    padding: 5px;
+    width: 60%;
+}
+
+span.quick-edit-icon{
+     background: url("../images/basic1-001_write_compose_new-16.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+     display: inline-block;
+     height: 30px;
+     width: 15px;
+     cursor:pointer;
+}
+
+tr.quick-form{
+    display:none;
+    
+}
+
+tr.quick-form td{
+    background: none repeat scroll 0 0 paleturquoise;
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    height: 125px;
+}
+
+div.quick-client{
+    float: left;
+    width: 205px;
+}
+
+div.quick-date{
+    float: left;
+    height: 105px;
+    width: 210px;
+}
+
+div.quick-shortdetails{
+    float: left;
+    width: 345px;
+}
+
+div.quick-submit{
+    width: 110px;
+}
+
+textarea.quick-short{
+    height: 80px;
+    width: 100%;
+}
+
+span.wp-picker-input-wrap{
+    display: inline-block;
+    margin-top: -6px;
+}
+
+span.wp-picker-input-wrap input#color-circle{
+    display: inline;
+    height: 24px;
+}
+
+span.wp-picker-input-wrap input.wp-picker-clear{
+    height: 25px;
+    margin-left: 4px;
+}
+
+span.wp-picker-input-wrap input#bgcolor-circle{
+    display: inline;
+    height: 24px;
+}
+
+span.wp-picker-input-wrap input#text-circle{
+    display: inline;
+    height: 24px;
+}
+
+span.item-sort{
+    background: url("../images/1404115927_sort.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    height: 21px;
+    width: 15px;
+}
+
+span.item-edit{
+    background: url("../images/1404282201_editor_pencil_pen_edit_write.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    height: 21px;
+    margin-left: 15px;
+    width: 20px;
+}
+
+div.item-edit-main{
+    height: 21px;
+    margin-top: -20px;
+    position: absolute;
+    right: 0;
+    width: 55px;
+}
+
+div.item-form{
+    float: right;
+    height: 315px;
+    width: 280px;
+}
+
+div.item-addform{
+    border: 1px solid #dedede;
+    height: 125px;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+input#item-name{
+    padding: 5px;
+    width: 93%;
+}
+
+input#item-delete{
+     margin-left: 10px;
+}
+
+tr.alter{
+   background-color: #fff;
+}
+
+div.skin dd.selected{
+     margin-bottom: 0;
+}
+
+div.redactor_editor{
+    height: 220px;
+}
+
+div.quick-welcome{
+    float: left;
+    height: 160px;
+    width: 225px;
+}
+
+input.quick-client-name{
+     width: 210px;
+}
+
+textarea.quick-message{
+     height: 70px;
+}
+
+div#msg_log{
+    background: none repeat scroll 0 0 cornflowerblue;
+    color: #fff;
+    padding: 15px;
+    width: 745px;
+}
+
+div.msg_log_item{
+    background: none repeat scroll 0 0 cornflowerblue;
+    color: #fff;
+    padding: 5px;
+}
